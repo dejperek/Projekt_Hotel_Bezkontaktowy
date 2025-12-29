@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Strona główna";
+}
+
+<div class="container">
+    <div class="text-center py-5">
+        <h1 class="display-4"><i class="bi bi-building"></i> Hotel</h1>
+        <p class="lead text-muted">Nowoczesny hotel z bezkontaktowym systemem dostępu</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg">
+                <div class="card-body text-center py-5">
+                    <h2 class="mb-4"><i class="bi bi-door-open text-primary"></i> Odkryj nasze pokoje</h2>
+                    <p class="lead">
+                        Oferujemy komfortowe pokoje w różnych kategoriach - od przytulnych pokoi standardowych 
+                        po luksusowe apartamenty. Każdy pokój wyposażony jest w nowoczesne udogodnienia.
+                    </p>
+                    <p class="text-muted mb-4">
+                        Zarezerwuj pobyt online i skorzystaj z naszego bezkontaktowego systemu wejścia - 
+                        wystarczy zeskanować kod QR przy drzwiach pokoju!
+                    </p>
+                    <a asp-controller="Rooms" asp-action="Index" class="btn btn-primary btn-lg">
+                        <i class="bi bi-search"></i> Przeglądaj pokoje
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5 text-center">
+        <div class="col-md-4">
+            <div class="card h-100 border-0">
+                <div class="card-body">
+                    <i class="bi bi-wifi text-primary display-4"></i>
+                    <h5 class="mt-3">Darmowe WiFi</h5>
+                    <p class="text-muted">Szybki internet w całym hotelu</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0">
+                <div class="card-body">
+                    <i class="bi bi-qr-code text-primary display-4"></i>
+                    <h5 class="mt-3">Bezkontaktowe wejście</h5>
+                    <p class="text-muted">Wejdź do pokoju za pomocą kodu QR</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0">
+                <div class="card-body">
+                    <i class="bi bi-clock text-primary display-4"></i>
+                    <h5 class="mt-3">24/7 Obsługa</h5>
+                    <p class="text-muted">Recepcja dostępna całą dobę</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -6,6 +6,11 @@ System rezerwacji hotelowej z funkcją bezkontaktowego dostępu do pokoi.
 
 Aplikacja webowa do zarządzania rezerwacjami hotelowymi, zbudowana w technologii ASP.NET Core 8 MVC. System umożliwia gościom samodzielną rezerwację pokoi oraz bezkontaktowy dostęp za pomocą unikalnego tokenu.
 
+Konto administratora:
+mail: admin@hotel.local
+hasło: Admin123!@#"
+
+
 ## ✨ Funkcjonalności
 
 ### Dla gości
